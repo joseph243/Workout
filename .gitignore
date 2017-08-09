@@ -9,3 +9,6 @@
 .externalNativeBuild
 
 /.idea/*
+/app/build/intermediates
+app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties
+app/build/intermediates/res/resources-debug.ap_
