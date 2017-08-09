@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Workout</string>
+    <string name="about">About This App</string>
+    <string name="go">Let"s Go!</string>
+    <string name="plan">Plan</string>
+    <string name="progress">Progress</string>
+</resources>

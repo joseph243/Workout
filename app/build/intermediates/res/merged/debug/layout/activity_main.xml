@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.josephvanderzwart.workout.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left">
+
+
+        <ImageView
+            android:id="@+id/imageView0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|center"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/logo" />
+
+
+        <ImageButton
+            android:layout_below="@+id/imageView0"
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/home"
+
+            />
+
+        <ImageButton
+            android:layout_below="@+id/imageButton1"
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="go"
+            app:srcCompat="@drawable/barbell" />
+
+        <ImageButton
+            android:layout_below="@id/imageButton2"
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="plan"
+            app:srcCompat="@drawable/plan" />
+
+        <ImageButton
+            android:layout_below="@id/imageButton3"
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="progress"
+            app:srcCompat="@drawable/done" />
+
+
+        <ImageButton
+            android:layout_below="@id/imageButton4"
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="about"
+            app:srcCompat="@drawable/info" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
